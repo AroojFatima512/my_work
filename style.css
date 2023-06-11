@@ -11,19 +11,19 @@
   }
   .img1 {
     width: 100vw;
-    height: 120%;
+    height: 100%;
     position: absolute;
     z-index: -1;
   }
   .text {
-    margin-top:400px;
+    margin-top:350px;
     display: flex;
     justify-content: center;
     position: relative;
-    color:black;
+    color:white;
     text-shadow: 2px 2px gray;
     font-family: monospace;
-    font-size: 70px;
+    font-size: 50px;
   }
   .form {
     display: flex;
@@ -187,10 +187,11 @@
     outline: none;
   }
   .flight{
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: rgb(157, 102, 157);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
     position: relative;
+  
   }
   .data{
     display: inline-block;
