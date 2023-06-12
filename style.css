@@ -1,11 +1,11 @@
-.nav {
+.anav {
   display: flex;
   justify-content: space-between;
   background-color: rgb(19, 19, 37);
   width: 100vw;
   height: 100px;
 }
-.logo {
+.alogo {
   color: white;
   font-family: "Rubik Puddles", cursive;
   font-weight: bold;
@@ -15,7 +15,7 @@
   margin-top: 30px;
   margin-left: 15px;
 }
-.links {
+.alinks {
   display: flex;
   width: 400px;
   list-style-type: none;
@@ -23,33 +23,33 @@
   align-items: center;
 }
 
-.links li {
+.alinks li {
   margin-top: 33px;
   padding: 3px;
 }
 
-.links li a {
+.alinks li a {
   font-size: large;
   font-weight: 500;
 }
 
-.links li:hover {
+.alinks li:hover {
   background-color: rgb(92, 130, 143);
   border-radius: 5px;
 }
 
-.links li a {
+.alinks li a {
   text-decoration: none;
   color: white;
 }
 
-.img1 {
+.aimg1 {
   width: 100vw;
   height: 100%;
   position: absolute;
   z-index: -1;
 }
-.text {
+.atext {
   margin-top: 300px;
   display: flex;
   justify-content: center;
@@ -59,13 +59,13 @@
   font-family: monospace;
   font-size: 50px;
 }
-.form {
+.aform {
   margin-top: 200px;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
-.c {
+.ac {
   position: relative;
   border: 1px solid rgb(182, 178, 178);
   background-color: white;
@@ -78,10 +78,10 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   font-size: larger;
 }
-.c:hover {
+.ac:hover {
   transform: scale(1.03);
 }
-.flight {
+.aflight {
   margin-top: 15px;
   margin-left: 164px;
   width: 1005px;
@@ -97,87 +97,89 @@ label {
 input {
   width: 200px;
 }
-#name {
+#aname {
   margin-left: 5px;
 }
-#phone {
+#aphone {
   margin-left: 10px;
 }
-#b {
+#ab {
   width: 140px;
 }
-#where {
+#awhere {
   margin-left: 15px;
 }
-#arrivals {
+#aarrivals {
   margin-left: 25px;
 }
-#a {
+#aa {
   width: 105px;
 }
-#email {
+#aemail {
   margin-left: 40px;
 }
-#address {
+#aaddress {
   margin-left: 25px;
 }
-#people {
+#apeople {
   margin-left: 8px;
 }
-#leaving {
+#aleaving {
   margin-left: 35px;
 }
-.su {
+.asu {
   margin-left: 80px;
   padding: 10px;
 }
-.travel {
+.atravel {
   margin-top: 100px;
 }
-.flying {
+.aflying {
   display: flex;
   justify-content: center;
   line-height: 0.5;
   font-family: cursive;
   font-size: 15px;
 }
-.journey {
+.ajourney {
   display: flex;
   justify-content: center;
   font-size: 50px;
   font-family: cursive;
   line-height: 0.6;
 }
-.explore {
+.aexplore {
   display: flex;
   justify-content: center;
 }
-.main {
+.amain {
   display: flex;
   margin-top: 50px;
 }
-.d1 {
+.ad1 {
   width: 580px;
   height: 615px;
   position: absolute;
-  margin-left: 60px;
+  margin-left: 100px;
   margin-top: 35px;
+  border: 1px solid rgb(182, 178, 178);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
-.d1:hover {
+.ad1:hover {
   transform: scale(1.03);
 }
-.dubai {
+.adubai {
   position: relative;
   display: inline-block;
   margin-top: 80px;
-  margin-left: 70px;
+  margin-left: 100px;
   font-size: 11px;
   height: 20px;
 }
-.p{
+.ap{
   margin-left: 70px;
 }
-.dubai2 {
+.adubai2 {
   display: inline-block;
   position: relative;
   margin-top: 50px;
@@ -185,89 +187,95 @@ input {
   width: 10px;
   font-size: 40px;
 }
-.pr {
+.apr {
   margin-top: 30px;
   margin-left: 40px;
   font-size: 14px;
 }
-.i {
+.ai {
   width: 280px;
   height: 300px;
-  padding-left: 70px;
-  margin-top: 20px;
+  margin-top: 35px;
+  margin-left: 80px;
 }
 
-.pic {
+.apic {
   width: 280px;
   height: 300px;
-  margin-left: 320px;
-  padding-bottom: 40px;
   position: absolute;
+  border: 1px solid rgb(182, 178, 178);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
-.pic:hover {
+#aimg1{
+  margin-left: 340px;
+}
+#aimg3{
+  margin-left: 280px;
+}
+.apic:hover {
   transform: scale(1.03);
 }
 
-.s {
+.as{
   position: relative;
-  margin-left: 360px;
+  margin-left: 380px;
 }
-.sub {
+.asub {
   display: inline-block;
   font-size: 25px;
 }
-
-.sub1 {
+.as1{
   display: inline-block;
-  font-size: 11px;
-  margin-left: 9px;
+  font-size: 25px;
 }
-.sub3 {
+.asub1 {
   display: inline-block;
   font-size: 11px;
-  margin-left: 9px;
-  margin-top: 210px;
 }
-.sub5 {
+.asub3 {
   display: inline-block;
   font-size: 11px;
   margin-left: 9px;
+  margin-top: 150px;
+}
+.asub5 {
+  display: inline-block;
+  font-size: 11px;
   margin-top: 9px;
 }
-.sub7 {
+.asub7 {
   display: inline-block;
   font-size: 11px;
-  margin-left: 9px;
-  margin-top: 209px;
+  margin-top: 150px;
 }
 
-#img3 {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  margin-top: 200px;
+#aimg2 {
+  margin-top: 140px;
+  margin-left: 340px;
 }
-#img4 {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  margin-top: 200px;
+#aimg4 {
+  margin-top: 140px;
+  margin-left: 280px;
 }
 
-.client {
+.aclient {
   margin-top: 400px;
   font-family: cursive;
   font-size: 50px;
   display: flex;
   justify-content: center;
 }
-.container {
+.acontainer {
   overflow-x: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;
   width: 100vw;
   height: 400px;
 }
-.container::-webkit-scrollbar {
+.acontainer::-webkit-scrollbar {
   display: none;
 }
-.card {
+.acard {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   margin-top: 50px;
   border: 2px solid black;
@@ -279,39 +287,39 @@ input {
   font-size: 14px;
   transition: 0.3s ease;
 }
-.card img {
+.acard img {
   width: 280px;
   height: 300px;
 }
-.card:hover {
+.acard:hover {
   transform: scale(1.1);
 }
 
-.card:focus {
+.acard:focus {
   outline: none;
 }
-.foot {
+.afoot {
   display: flex;
 }
 
-.help {
+.ahelp {
   padding: 30px;
   width: 25%;
 }
 
-.help h3 {
+.ahelp h3 {
   margin-left: 70px;
   font-size: 24px;
   color: white;
   margin-bottom: 15px;
 }
 
-.help ul {
+.ahelp ul {
   list-style: none;
   margin-left: 30px;
 }
 
-.help li a {
+.ahelp li a {
   text-decoration: none;
   font-size: 16px;
   line-height: 2;
@@ -321,28 +329,28 @@ input {
   text-size-adjust: 30px;
 }
 
-.help li a:hover {
+.ahelp li a:hover {
   color: skyblue;
   text-decoration: underline;
 }
 
-.contactus {
+.acontactus {
   padding: 30px;
   width: 25%;
 }
 
-.contactus h3 {
+.acontactus h3 {
   font-size: 24px;
   color: white;
   margin-bottom: 15px;
   margin-left: 40px;
 }
 
-.contactus ul {
+.acontactus ul {
   list-style: none;
 }
 
-.contactus li a {
+.acontactus li a {
   text-decoration: none;
   font-size: 16px;
   line-height: 2;
@@ -352,28 +360,28 @@ input {
   text-size-adjust: 30px;
 }
 
-.contactus li a:hover {
+.acontactus li a:hover {
   color: skyblue;
   text-decoration: underline;
 }
 
-.quick {
+.aquick {
   padding: 30px;
   width: 25%;
 }
 
-.quick h3 {
+.aquick h3 {
   font-size: 24px;
   color: white;
   margin-bottom: 15px;
   margin-left: 40px;
 }
 
-.quick ul {
+.aquick ul {
   list-style: none;
 }
 
-.quick li a {
+.aquick li a {
   text-decoration: none;
   font-size: 16px;
   line-height: 2;
@@ -383,45 +391,45 @@ input {
   text-size-adjust: 30px;
 }
 
-.quick li a:hover {
+.aquick li a:hover {
   color: skyblue;
   text-decoration: underline;
 }
 
-.social {
+.asocial {
   padding: 30px;
   width: 25%;
 }
 
-.social h3 {
+.asocial h3 {
   font-size: 24px;
   color: white;
   margin-bottom: 15px;
   margin-left: 25px;
 }
 
-.social ul {
+.asocial ul {
   list-style: none;
 }
 
-.social li img {
+.asocial li img {
   line-height: 2;
   color: white;
   padding-bottom: 10px;
 }
 
-.social li:hover {
+.asocial li:hover {
   width: max-content;
   background-color: rgb(92, 130, 143);
   border-radius: 5px;
 }
 
-.copyright {
+.acopyright {
   color: white;
   margin-left: 75%;
 }
 
-.footer {
+.afooter {
   background-color: rgb(30, 30, 66);
   width: 100vw;
 }
