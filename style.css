@@ -60,7 +60,7 @@
   font-size: 50px;
 }
 .aform {
-  margin-top: 200px;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -171,19 +171,17 @@ input {
 .adubai {
   position: relative;
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-left: 100px;
   font-size: 11px;
   height: 20px;
 }
 .ap{
-  margin-left: 70px;
+  margin-left: 50px;
 }
 .adubai2 {
   display: inline-block;
   position: relative;
-  margin-top: 50px;
-  height: 20px;
   width: 10px;
   font-size: 40px;
 }
@@ -206,56 +204,63 @@ input {
   border: 1px solid rgb(182, 178, 178);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
-#aimg1{
-  margin-left: 340px;
-}
-#aimg3{
-  margin-left: 280px;
-}
 .apic:hover {
   transform: scale(1.03);
 }
 
-.as{
-  position: relative;
-  margin-left: 380px;
+#aimg1{
+  margin-left: 290px;
 }
-.asub {
-  display: inline-block;
-  font-size: 25px;
-}
-.as1{
-  display: inline-block;
-  font-size: 25px;
-}
-.asub1 {
-  display: inline-block;
-  font-size: 11px;
-}
-.asub3 {
-  display: inline-block;
-  font-size: 11px;
-  margin-left: 9px;
-  margin-top: 150px;
-}
-.asub5 {
-  display: inline-block;
-  font-size: 11px;
-  margin-top: 9px;
-}
-.asub7 {
-  display: inline-block;
-  font-size: 11px;
-  margin-top: 150px;
+#aimg3{
+  margin-left: 230px;
 }
 
 #aimg2 {
-  margin-top: 140px;
-  margin-left: 340px;
+  margin-top: 200px;
+  margin-left: 290px;
 }
 #aimg4 {
-  margin-top: 140px;
-  margin-left: 280px;
+  margin-top: 200px;
+  margin-left: 230px;
+}
+
+.as{
+  position: relative;
+  margin-left: 330px;
+}
+.as1{
+  position: relative;
+  margin-left: 230px;
+}
+.aclass{
+  display: inline-block;
+  font-size: 25px;
+}
+.aclass1{
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.acabin1 {
+  display: inline-block;
+  font-size: 11px;
+}
+.acabin2 {
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 9px;
+  margin-top: 210px;
+}
+.acabin3 {
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 50px;
+}
+.acabin4 {
+  display: inline-block;
+  font-size: 11px;
+  margin-top: 210px;
+  margin-left: 50px;
 }
 
 .aclient {
